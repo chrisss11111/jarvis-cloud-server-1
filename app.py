@@ -4,7 +4,7 @@ import openai
 import os
 
 app = Flask(__name__)
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("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")
 
 @app.route('/process_audio', methods=['POST'])
 def process_audio():
